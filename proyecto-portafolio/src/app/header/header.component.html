@@ -1,0 +1,28 @@
+<div class="content-general">
+  <div class="main-g">
+    <mat-toolbar class="toolbar">
+
+        <div class="sidenav-main">
+          <span class="name-page">
+            My Application
+          </span>
+          <img src="./../../assets/img/main.png" id="img-main" class="img-main" (click)="showData()" style="width:27px; margin-bottom: -6px;" alt="">
+        </div>
+
+      <div class="rigth-main">
+        <div class="items">
+          <a href="#">Inicio</a>
+          <a href="#">Proyectos</a>
+          <a href="#">Sobre Mi</a>
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+    </mat-toolbar>
+
+    <div *ngIf="element == true" class="sidenav-content" id="sidenav-content">
+      <div class="content-main-late">
+        <p>hola</p>
+      </div>
+    </div>
+  </div>
+</div>
